@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.RankingCoach.LogInCreateAccMethods.CreateNewAccount">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="CreateAccountLogInWithGoogle"/>
+          <include name="testResult"/>
+          <include name="tearDown"/>
+          <include name="testStart"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.RankingCoach.LogInCreateAccMethods.CreateNewAccount -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
