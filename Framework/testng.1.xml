@@ -4,10 +4,8 @@
 	<test thread-count="5" name="Test">
 		<classes>
 			<class
-				name="com.RankingCoach.LogInCreateAccMethods.CreateNewAccount">
-				<methods>
-					<include name="CreateAccountLogInWithGoogle" />
-				</methods>
+				name="com.RankingCoach.LogInCreateAccMethods.createAccountandCompleteOnboarding">
+
 			</class>
 		</classes>
 	</test>
