@@ -36,7 +36,7 @@ public class createAccountandCompleteOnboarding extends TestEnvironment {
 		ExtentReport.test.log(LogStatus.INFO, "Generate a new user:doesam848+" + randomInt + "@gmail.com");
 
 		driver.get("https://www.rankingcoach.com/a/zuora_secure");
-		// driver.get("http://ami.dev.rankingcoach.com/a/zuora_secure");
+		//driver.get("http://rft.dev.rankingcoach.com/a/zuora_secure");
 		ExtentReport.test.log(LogStatus.INFO, "Add affliates by accessing the zuora_secure url");
 
 		el.createAccButon().click();
@@ -264,6 +264,7 @@ public class createAccountandCompleteOnboarding extends TestEnvironment {
 
 		onboarding.Subscription();
 
+		Thread.sleep(10000);
 	}
 
 

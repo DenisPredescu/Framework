@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class AppConfig 
 {
-	static File appFile = new File("C:\\Users\\Bogdan\\Framework\\src\\main\\java\\Resources\\data.properties");
+	static File appFile = new File("C:\\Users\\Bogdan\\git\\Framework\\Framework\\src\\main\\java\\Resources\\data.properties");
 	static FileInputStream fis;
 	static Properties prop = new Properties();
 	

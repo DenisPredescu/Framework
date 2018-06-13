@@ -608,7 +608,7 @@ public class OnboardingPO extends TestEnvironment {
 		Thread.sleep(1000);
 		js.executeScript("scroll(0,400)");
 
-		if (KeyCount == 25) {
+		if (KeyCount <= 25) {
 
 			KeyNext.click();
 			ExtentReport.test.log(LogStatus.PASS, "If the Number of Keywords is equal with 25 Press NEXT button");
