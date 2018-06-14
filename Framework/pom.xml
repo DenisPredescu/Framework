@@ -23,6 +23,7 @@
 							<configuration>
 								<suiteXmlFiles>
 									<suiteXmlFile>Testng_test.xml</suiteXmlFile>
+								</suiteXmlFiles>
 							</configuration>
 						</plugin>
 					</plugins>
@@ -43,7 +44,6 @@
 			<artifactId>selenium-java</artifactId>
 			<version>3.6.0</version>
 		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
 		<dependency>
 			<groupId>org.apache.maven.plugins</groupId>
