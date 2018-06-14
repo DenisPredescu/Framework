@@ -10,7 +10,7 @@
 
 	<profiles>
 		<profile>
-		<id>CreateUser</id>
+			<id>CreateUser</id>
 
 
 			<build>
@@ -24,6 +24,9 @@
 								<suiteXmlFiles>
 									<suiteXmlFile>Testng_test.xml</suiteXmlFile>
 								</suiteXmlFiles>
+								<source>1.6</source>
+								<target>1.6</target>
+								<encoding>UTF-8</encoding>
 							</configuration>
 						</plugin>
 					</plugins>

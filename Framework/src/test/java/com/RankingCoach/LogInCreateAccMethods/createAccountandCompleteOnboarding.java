@@ -264,7 +264,6 @@ public class createAccountandCompleteOnboarding extends TestEnvironment {
 
 		onboarding.Subscription();
 
-		Thread.sleep(10000);
 	}
 
 
